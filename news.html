@@ -1,0 +1,914 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="google" content="notranslate">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <link rel="stylesheet" href="css/style.min.css?_v=20220124130417">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css?_v=20220124130417" />
+   <title>News</title>
+</head>
+
+<body>
+
+   <div class="page">
+      <header class="header">
+   <div class="container">
+      <div class="header__wrap">
+         <a class="header__logo" href="index.html">
+            <img src="img/logo.svg" alt="">
+         </a>
+         <nav class="header__nav">
+            <ul class="header__list">
+               <li class="header__item">
+                  <a class="header__link active" href="index.html">Футбол</a>
+               </li>
+               <li class="header__item">
+                  <a class="header__link" href="index.html">Хоккей</a>
+               </li>
+               <li class="header__item">
+                  <a class="header__link" href="index.html">ММА / Бокс</a>
+               </li>
+               <li class="header__item">
+                  <a class="header__link" href="index.html">Фигурное катание</a>
+               </li>
+               <li class="header__item">
+                  <a class="header__link" href="index.html">Волейбол</a>
+               </li>
+            </ul>
+         </nav>
+         <div class="header__admin" data-modal="auth-modal">
+            <picture><source srcset="img/admin.webp" type="image/webp"><img src="img/admin.png" alt="admin"></picture>
+         </div>
+         <button class="header__burger" type="button">
+            <span></span>
+         </button>
+      </div>
+   </div>
+</header>
+      <main class="main">
+         <!-- slider -->
+         <div class="banner">
+            <picture><source srcset="img/banner3.webp" type="image/webp"><img src="img/banner3.png" alt=""></picture>
+            <div class="banner__box">
+               <h4 class="banner__title">
+                  Parimatch стал титульным <br> спонсором регбийного ЦСКА
+               </h4>
+               <span>
+                  Вчера, 06:31
+                  <svg width="31" height="20" viewBox="0 0 31 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                     <path
+                        d="M25.51 12.9V14H20.35V13.13L23.13 10.49C23.4433 10.19 23.6533 9.93 23.76 9.71C23.8733 9.48333 23.93 9.26 23.93 9.04C23.93 8.71333 23.82 8.46333 23.6 8.29C23.38 8.11667 23.0567 8.03 22.63 8.03C21.9167 8.03 21.37 8.27333 20.99 8.76L20.08 8.06C20.3533 7.69333 20.72 7.41 21.18 7.21C21.6467 7.00333 22.1667 6.9 22.74 6.9C23.5 6.9 24.1067 7.08 24.56 7.44C25.0133 7.8 25.24 8.29 25.24 8.91C25.24 9.29 25.16 9.64667 25 9.98C24.84 10.3133 24.5333 10.6933 24.08 11.12L22.21 12.9H25.51Z"
+                        fill="white" />
+                     <rect y="6" width="14" height="9" fill="white" />
+                     <path d="M1.5 19V13H5.5L1.5 19Z" fill="white" />
+                  </svg>
+               </span>
+            </div>
+         </div>
+         <!-- end slider -->
+
+         <div class="main-wrapp">
+            <aside class="sidebar">
+
+               <div class="sidebar__header">
+                  <span class="sidebar__date">
+                     Сегодня<span>28. 12. 2021</span>
+                  </span>
+                  <span class="sidebar__date">
+                     Время<span>11:12:32</span>
+                  </span>
+               </div>
+
+               <select class="sidebar__select">
+                  <option value="all">Все виды спорта</option>
+                  <option value="selectively">Выборочно</option>
+               </select>
+
+               <div class="sidebar__tabs">
+                  <button data-tab="1" class="sidebar__tab">Вчера 40</button>
+                  <button data-tab="2" class="sidebar__tab active">Сегодня 49</button>
+                  <button data-tab="3" class="sidebar__tab">Завтра 35</button>
+               </div>
+
+               <div class="sidebar__tab-content">
+                  <div data-tab-content="1" class="sidebar__tab-pane">
+                     <div class="card">
+                        <div class="card__header">
+                           <img src="img/khl.svg" alt="">
+                           <span>Английская Премьер-лига</span>
+                        </div>
+
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/aus.svg" alt="">
+                                 <span>Австрия U20</span>
+                              </div>
+                              <span>2</span>
+                           </div>
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/can.svg" alt="">
+                                 <span>Канада U20</span>
+                              </div>
+                              <span>12</span>
+                           </div>
+                        </div>
+                        <div class="card__row card__row_grey">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/fin.svg" alt="">
+                                    <span>Финляндия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/ceh.svg" alt="">
+                                    <span>Чехия U20</span>
+                                 </div>
+                              </div>
+                              <span>22:00</span>
+                           </div>
+                        </div>
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/slov.svg" alt="">
+                                    <span>Словакия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/rus.svg" alt="">
+                                    <span>Россия U20</span>
+                                 </div>
+                              </div>
+                              <span>00:30</span>
+                           </div>
+                        </div>
+
+                     </div>
+                     <div class="card card_none">
+                        <div class="card__header">
+                           <img src="img/iihl.svg" alt="">
+                           <span>Национальная хоккейная лига</span>
+                        </div>
+
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/aus.svg" alt="">
+                                 <span>Австрия U20</span>
+                              </div>
+                              <span>2</span>
+                           </div>
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/can.svg" alt="">
+                                 <span>Канада U20</span>
+                              </div>
+                              <span>12</span>
+                           </div>
+                        </div>
+                        <div class="card__row card__row_grey">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/fin.svg" alt="">
+                                    <span>Финляндия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/ceh.svg" alt="">
+                                    <span>Чехия U20</span>
+                                 </div>
+                              </div>
+                              <span>22:00</span>
+                           </div>
+                        </div>
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/slov.svg" alt="">
+                                    <span>Словакия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/rus.svg" alt="">
+                                    <span>Россия U20</span>
+                                 </div>
+                              </div>
+                              <span>00:30</span>
+                           </div>
+                        </div>
+
+                     </div>
+                     <div class="card card_none">
+                        <div class="card__header">
+                           <img src="img/khl.svg" alt="">
+                           <span>Английская Премьер-лига</span>
+                        </div>
+
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/aus.svg" alt="">
+                                 <span>Австрия U20</span>
+                              </div>
+                              <span>2</span>
+                           </div>
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/can.svg" alt="">
+                                 <span>Канада U20</span>
+                              </div>
+                              <span>12</span>
+                           </div>
+                        </div>
+                        <div class="card__row card__row_grey">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/fin.svg" alt="">
+                                    <span>Финляндия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/ceh.svg" alt="">
+                                    <span>Чехия U20</span>
+                                 </div>
+                              </div>
+                              <span>22:00</span>
+                           </div>
+                        </div>
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/slov.svg" alt="">
+                                    <span>Словакия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/rus.svg" alt="">
+                                    <span>Россия U20</span>
+                                 </div>
+                              </div>
+                              <span>00:30</span>
+                           </div>
+                        </div>
+
+                     </div>
+                     <div class="card card_none">
+                        <div class="card__header">
+                           <img src="img/iihl.svg" alt="">
+                           <span>Национальная хоккейная лига</span>
+                        </div>
+
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/aus.svg" alt="">
+                                 <span>Австрия U20</span>
+                              </div>
+                              <span>2</span>
+                           </div>
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/can.svg" alt="">
+                                 <span>Канада U20</span>
+                              </div>
+                              <span>12</span>
+                           </div>
+                        </div>
+                        <div class="card__row card__row_grey">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/fin.svg" alt="">
+                                    <span>Финляндия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/ceh.svg" alt="">
+                                    <span>Чехия U20</span>
+                                 </div>
+                              </div>
+                              <span>22:00</span>
+                           </div>
+                        </div>
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/slov.svg" alt="">
+                                    <span>Словакия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/rus.svg" alt="">
+                                    <span>Россия U20</span>
+                                 </div>
+                              </div>
+                              <span>00:30</span>
+                           </div>
+                        </div>
+
+                     </div>
+
+                     <a href="match.html" class="sidebar__btn btn">Все матчи</a>
+                  </div>
+
+                  <div data-tab-content="2" class="sidebar__tab-pane active">
+                     <div class="card">
+                        <div class="card__header">
+                           <img src="img/iihl.svg" alt="">
+                           <span>Молодежный чемпионат мира</span>
+                        </div>
+
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/aus.svg" alt="">
+                                 <span>Австрия U20</span>
+                              </div>
+                              <span>2</span>
+                           </div>
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/can.svg" alt="">
+                                 <span>Канада U20</span>
+                              </div>
+                              <span>12</span>
+                           </div>
+                        </div>
+                        <div class="card__row card__row_grey">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/fin.svg" alt="">
+                                    <span>Финляндия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/ceh.svg" alt="">
+                                    <span>Чехия U20</span>
+                                 </div>
+                              </div>
+                              <span>22:00</span>
+                           </div>
+                        </div>
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/slov.svg" alt="">
+                                    <span>Словакия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/rus.svg" alt="">
+                                    <span>Россия U20</span>
+                                 </div>
+                              </div>
+                              <span>00:30</span>
+                           </div>
+                        </div>
+
+                     </div>
+                     <div class="card card_none">
+                        <div class="card__header">
+                           <img src="img/khl.svg" alt="">
+                           <span>Континентальная хоккейная лига</span>
+                        </div>
+
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/aus.svg" alt="">
+                                 <span>Австрия U20</span>
+                              </div>
+                              <span>2</span>
+                           </div>
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/can.svg" alt="">
+                                 <span>Канада U20</span>
+                              </div>
+                              <span>12</span>
+                           </div>
+                        </div>
+                        <div class="card__row card__row_grey">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/fin.svg" alt="">
+                                    <span>Финляндия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/ceh.svg" alt="">
+                                    <span>Чехия U20</span>
+                                 </div>
+                              </div>
+                              <span>22:00</span>
+                           </div>
+                        </div>
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/slov.svg" alt="">
+                                    <span>Словакия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/rus.svg" alt="">
+                                    <span>Россия U20</span>
+                                 </div>
+                              </div>
+                              <span>00:30</span>
+                           </div>
+                        </div>
+
+                     </div>
+                     <div class="card card_none">
+                        <div class="card__header">
+                           <img src="img/iihl.svg" alt="">
+                           <span>Национальная хоккейная лига</span>
+                        </div>
+
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/aus.svg" alt="">
+                                 <span>Австрия U20</span>
+                              </div>
+                              <span>2</span>
+                           </div>
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/can.svg" alt="">
+                                 <span>Канада U20</span>
+                              </div>
+                              <span>12</span>
+                           </div>
+                        </div>
+                        <div class="card__row card__row_grey">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/fin.svg" alt="">
+                                    <span>Финляндия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/ceh.svg" alt="">
+                                    <span>Чехия U20</span>
+                                 </div>
+                              </div>
+                              <span>22:00</span>
+                           </div>
+                        </div>
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/slov.svg" alt="">
+                                    <span>Словакия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/rus.svg" alt="">
+                                    <span>Россия U20</span>
+                                 </div>
+                              </div>
+                              <span>00:30</span>
+                           </div>
+                        </div>
+
+                     </div>
+                     <div class="card card_none">
+                        <div class="card__header">
+                           <img src="img/khl.svg" alt="">
+                           <span>Английская Премьер-лига</span>
+                        </div>
+
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/aus.svg" alt="">
+                                 <span>Австрия U20</span>
+                              </div>
+                              <span>2</span>
+                           </div>
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/can.svg" alt="">
+                                 <span>Канада U20</span>
+                              </div>
+                              <span>12</span>
+                           </div>
+                        </div>
+                        <div class="card__row card__row_grey">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/fin.svg" alt="">
+                                    <span>Финляндия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/ceh.svg" alt="">
+                                    <span>Чехия U20</span>
+                                 </div>
+                              </div>
+                              <span>22:00</span>
+                           </div>
+                        </div>
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/slov.svg" alt="">
+                                    <span>Словакия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/rus.svg" alt="">
+                                    <span>Россия U20</span>
+                                 </div>
+                              </div>
+                              <span>00:30</span>
+                           </div>
+                        </div>
+
+                     </div>
+
+                     <a href="match.html" class="sidebar__btn btn">Все матчи</a>
+                  </div>
+
+                  <div data-tab-content="3" class="sidebar__tab-pane">
+                     <div class="card">
+                        <div class="card__header">
+                           <img src="img/khl.svg" alt="">
+                           <span>Английская Премьер-лига</span>
+                        </div>
+
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/aus.svg" alt="">
+                                 <span>Австрия U20</span>
+                              </div>
+                              <span>2</span>
+                           </div>
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/can.svg" alt="">
+                                 <span>Канада U20</span>
+                              </div>
+                              <span>12</span>
+                           </div>
+                        </div>
+                        <div class="card__row card__row_grey">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/fin.svg" alt="">
+                                    <span>Финляндия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/ceh.svg" alt="">
+                                    <span>Чехия U20</span>
+                                 </div>
+                              </div>
+                              <span>22:00</span>
+                           </div>
+                        </div>
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/slov.svg" alt="">
+                                    <span>Словакия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/rus.svg" alt="">
+                                    <span>Россия U20</span>
+                                 </div>
+                              </div>
+                              <span>00:30</span>
+                           </div>
+                        </div>
+
+                     </div>
+                     <div class="card card_none">
+                        <div class="card__header">
+                           <img src="img/iihl.svg" alt="">
+                           <span>Национальная хоккейная лига</span>
+                        </div>
+
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/aus.svg" alt="">
+                                 <span>Австрия U20</span>
+                              </div>
+                              <span>2</span>
+                           </div>
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/can.svg" alt="">
+                                 <span>Канада U20</span>
+                              </div>
+                              <span>12</span>
+                           </div>
+                        </div>
+                        <div class="card__row card__row_grey">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/fin.svg" alt="">
+                                    <span>Финляндия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/ceh.svg" alt="">
+                                    <span>Чехия U20</span>
+                                 </div>
+                              </div>
+                              <span>22:00</span>
+                           </div>
+                        </div>
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/slov.svg" alt="">
+                                    <span>Словакия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/rus.svg" alt="">
+                                    <span>Россия U20</span>
+                                 </div>
+                              </div>
+                              <span>00:30</span>
+                           </div>
+                        </div>
+
+                     </div>
+                     <div class="card card_none">
+                        <div class="card__header">
+                           <img src="img/khl.svg" alt="">
+                           <span>Английская Премьер-лига</span>
+                        </div>
+
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/aus.svg" alt="">
+                                 <span>Австрия U20</span>
+                              </div>
+                              <span>2</span>
+                           </div>
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/can.svg" alt="">
+                                 <span>Канада U20</span>
+                              </div>
+                              <span>12</span>
+                           </div>
+                        </div>
+                        <div class="card__row card__row_grey">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/fin.svg" alt="">
+                                    <span>Финляндия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/ceh.svg" alt="">
+                                    <span>Чехия U20</span>
+                                 </div>
+                              </div>
+                              <span>22:00</span>
+                           </div>
+                        </div>
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/slov.svg" alt="">
+                                    <span>Словакия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/rus.svg" alt="">
+                                    <span>Россия U20</span>
+                                 </div>
+                              </div>
+                              <span>00:30</span>
+                           </div>
+                        </div>
+
+                     </div>
+                     <div class="card card_none">
+                        <div class="card__header">
+                           <img src="img/iihl.svg" alt="">
+                           <span>Национальная хоккейная лига</span>
+                        </div>
+
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/aus.svg" alt="">
+                                 <span>Австрия U20</span>
+                              </div>
+                              <span>2</span>
+                           </div>
+                           <div class="card__group">
+                              <div>
+                                 <img src="img/can.svg" alt="">
+                                 <span>Канада U20</span>
+                              </div>
+                              <span>12</span>
+                           </div>
+                        </div>
+                        <div class="card__row card__row_grey">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/fin.svg" alt="">
+                                    <span>Финляндия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/ceh.svg" alt="">
+                                    <span>Чехия U20</span>
+                                 </div>
+                              </div>
+                              <span>22:00</span>
+                           </div>
+                        </div>
+                        <div class="card__row">
+                           <div class="card__group">
+                              <div>
+                                 <div class="card__item">
+                                    <img src="img/slov.svg" alt="">
+                                    <span>Словакия U20</span>
+                                 </div>
+
+                                 <div class="card__item">
+                                    <img src="img/rus.svg" alt="">
+                                    <span>Россия U20</span>
+                                 </div>
+                              </div>
+                              <span>00:30</span>
+                           </div>
+                        </div>
+
+                     </div>
+
+                     <a href="match.html" class="sidebar__btn btn">Все матчи</a>
+                  </div>
+               </div>
+            </aside>
+            <div class="main-body">
+
+
+               <!-- article -->
+               <section class="article">
+                  <div class="article__wrap">
+                     <div class="article__header">
+                        <span>Ставки на спорт</span>
+                        <span>ПариМатч натив</span>
+                        <span>Ставки</span>
+                     </div>
+
+                     <div class="article__group">
+                        <h4 class="article__title">Parimatch стал титульным спонсором регбийного ЦСКА</h4>
+                        <ul class="article__list">
+                           <li>
+                              <a href="https://www.facebook.com/">
+                                 <img src="img/facebook.svg" alt="">
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://www.vk.com/">
+                                 <img src="img/vk.svg" alt="">
+                              </a>
+                           </li>
+                           <li>
+                              <a href="https://www.twitter.com/">
+                                 <img src="img/twitter.svg" alt="">
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+
+                     <p class="article__text">
+                        Букмекерская компания Parimatch и регбийный клуб ЦСКА подписали соглашение о сотрудничестве,
+                        которое вступает в
+                        силу в новом сезоне. По условиям соглашения Parimatch становится титульным спонсором
+                        амбициозного московского
+                        коллектива.
+                     </p>
+                     <p class="article__text">
+                        В рамках сотрудничества логотип букмекерской компании будет размещен на спортивной форме команды
+                        во всех
+                        официальных матчах. Parimatch также получил права на брендинг во время домашних игр ЦСКА. Кроме
+                        того, партнеры
+                        запланировали целый ряд совместных спецпроектов.
+                     </p>
+
+                     <div class="article__img article__img_dn">
+                        <picture><source srcset="img/images1.webp" type="image/webp"><img src="img/images1.png" alt=""></picture>
+                     </div>
+
+                     <p class="article__text">
+                        Регби-клуб ЦСКА основан в 2014 году. За 7 лет команда прошла путь от участия в любительских
+                        региональных
+                        соревнованиях до элитного дивизиона чемпионата России, в котором выступает уже второй год.
+                        Теперь армейцы
+                        ставят
+                        перед собой цель выиграть чемпионский титул в ближайшие три сезона. К тому же за ЦСКА играет
+                        самый узнаваемый
+                        регбист в стране, капитан сборной России на Кубке мира 2019 в Японии Василий Артемьев.
+                     </p>
+                     <p class="article__text">
+                        «Для регби-клуба ЦСКА эта сделка – исторический момент. Parimatch – наш первый титульный
+                        спонсор, и мы
+                        благодарны
+                        компании за веру в нас, в наши амбиции и перспективы. У нас уже есть много интересных задумок по
+                        расширению
+                        сотрудничества. Уверен, что совместные проекты станут ярким примером в российском спортивном
+                        маркетинге», —
+                        рассказал президент РК ЦСКА Алексей Митрюшин.
+                     </p>
+                     <p class="article__text">
+                        «Мы рады представить нашего нового партнера из регбийного мира. Московский ЦСКА амбициозен,
+                        стремится стать
+                        лучшим
+                        и имеет четкую стратегию действий, результаты которой уже просматриваются не только на поле.
+                        Уверены, что и в
+                        новом сезоне ЦСКА будет достойно смотреться на фоне признанных грандов российского регби», —
+                        заявил CEO
+                        Parimatch
+                        Россия Руслан Медведь.
+                     </p>
+
+                     <div class="article__img">
+                        <picture><source srcset="img/images1.webp" type="image/webp"><img src="img/images1.png" alt=""></picture>
+                     </div>
+
+                  </div>
+                  <a href="index.html" class="article__btn btn">читать все новости</a>
+               </section>
+               <!-- end article -->
+            </div>
+
+         </div>
+
+      </main>
+
+      <footer class="footer">
+   <p>
+      © 2015–2021 ООО «NEWSsport»
+   </p>
+
+   <div class="footer__group">
+      <img src="img/18+.svg" alt="">
+      <span>Для лиц старше 18 лет</span>
+   </div>
+</footer>
+   </div>
+   <div class="modal" id="auth-modal">
+   <div class="modal__content ">
+      <div class="modal__form">
+         <div class="modal__group">
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="Email" required>
+         </div>
+         <div class="modal__group">
+            <label for="password">Password</label>
+            <input type="password" name="password" placeholder="Password" required>
+         </div>
+         <p class="modal__info">Ваши данные приняты в обработку, спасибо!</p>
+         <button class="modal__btn">Регистрация</button>
+      </div>
+   </div>
+</div>
+
+   <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js?_v=20220124130417"></script>
+   <script src="js/app.min.js?_v=20220124130417"></script>
+</body>
+
+</html>
